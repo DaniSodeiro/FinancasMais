@@ -1,49 +1,52 @@
-.header{
-    width: 100%;
-    padding: 12px 104px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--blue-500, #457B9D);
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.header {
+  width: 100%;
+  padding: 12px 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue-500, #457b9d);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.menu{
-    display: flex;
-    align-items: center;
-    gap: 24px;
-
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
-.logo{
-    color: var(--blue-500, #457B9D);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.logo {
+  color: var(--blue-500, #457b9d);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
+.plus {
+  width: 30px;
+  height: 30px;
+}
 .link {
-    color: var(--blue-500, #457B9D);
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: var(--blue-500, #457b9d);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.btn_criar{
-    display: flex;
-    padding: 12px 48px;
-    align-items: center;
-    border-radius: 8px;
-    background: var(--blue-700, #1D3557);
-    box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.25);
-    color: #ffff;
-    font-size: 24px;
+.btn_criar {
+  display: flex;
+  padding: 12px 48px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--blue-700, #1d3557);
+  box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffff;
+  font-size: 24px;
 }

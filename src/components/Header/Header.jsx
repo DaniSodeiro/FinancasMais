@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./header.module.css";
-// import Logo from "/icon/Logo.svg";
 import { Plus } from "@phosphor-icons/react";
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <h1>
-        Finanças <Plus />
+        Finanças <Plus className={styles.plus} />
       </h1>
 
       <nav>

@@ -3,6 +3,10 @@
   align-items: center;
   padding: 24px;
   justify-content: space-evenly;
+  background-image: url(../../../public/icon/Ellipse2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
 }
 
 .titulo {
