@@ -1,0 +1,41 @@
+.sessao {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  justify-content: space-evenly;
+}
+
+.titulo {
+  color: var(--blue-500, #457b9d);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.texto1 {
+  color: var(--blue-900, #263238);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.texto2 {
+  color: var(--blue-900, #263238);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.firstBlock {
+  display: flex;
+  flex-direction: column;
+  width: 519px;
+  height: 331px;
+  gap: 30px;
+}
