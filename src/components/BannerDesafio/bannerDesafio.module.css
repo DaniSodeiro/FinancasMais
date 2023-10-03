@@ -1,0 +1,53 @@
+.sessao {
+  display: flex;
+  padding: 24px;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.titulo {
+  color: var(--blue-700, #1d3557);
+  font-family: Montserrat;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.texto1 {
+  width: 519px;
+  color: var(--blue-900, #263238);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.texto2 {
+  width: 519px;
+  color: var(--blue-900, #263238);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.texto3 {
+  width: 519px;
+  color: var(--blue-900, #263238);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.firstBlock {
+  display: flex;
+  flex-direction: column;
+  width: 519px;
+  height: 331px;
+  gap: 30px;
+}
