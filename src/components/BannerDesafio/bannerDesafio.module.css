@@ -5,6 +5,7 @@
   align-content: center;
   flex-direction: row-reverse;
   align-items: center;
+  background: #e9f0f0;
 }
 
 .titulo {
